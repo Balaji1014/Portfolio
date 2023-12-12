@@ -1,0 +1,144 @@
+.navbar{
+    background-color: #000000 !important;
+}
+.nav-item a:hover{
+
+    border-bottom: 2px solid rgb(255, 217, 0);
+}
+.Home{
+    background: #000000; 
+    background: -webkit-linear-gradient(to bottom, #000000, #323232);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.Home .container .row{
+
+    min-height: 85vh;
+}
+
+.Home .container .row .side-container{
+
+   height: 70vh;
+}
+
+.About{
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #000000, #323232);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 85vh;
+}
+.About .container{
+
+    min-height: 90vh;
+    
+    
+}
+
+.About .container .about-row{
+
+    margin-top: 70px;
+}
+
+.About .container .about-row .about-content .cv{
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms cubic-bezier(.23, 1, 0.32, 1);
+}
+
+.About .container .about-row .about-content .cv:hover{
+
+    box-shadow: 2px 2px 200px #000000;
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid black;
+    outline: none;
+    transform: translateY(-2px);
+}
+
+
+
+.About .container .about-row a .btnText{
+
+    letter-spacing: 3px;
+}
+.line{
+
+  height: 4px !important;
+  width: 170px !important;
+  margin: 10px auto !important;
+  background: #ffffff;
+  animation: animi 1s;
+}
+
+
+.Skills, .MyWorks{
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #000000, #323232);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 80vh;
+}
+
+
+.Skills .row-2 .skill-section{
+
+    margin-top: 60px;
+}
+
+.mid-container .mid-container-row{
+
+    min-height: 30vh;
+}
+
+.MyWorks .container .carousel-row{
+    
+    height: 70vh;
+
+}
+
+.MyWorks .container .carousel-row .carousel .cards{
+    margin-left: 30px;
+    background-color: #fff;
+}
+
+.contact{
+    
+    background: #000000;
+    background: -webkit-linear-gradient(to bottom, #000000, #323232);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #333333); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    min-height: 80vh;
+   
+}
+
+.contact .contact-row{
+
+    min-height: 60vh;
+}
+.contact .contact-row .contact-form button:hover{
+
+    box-shadow: 2px 2px 200px #000000;
+    color: #fff;
+    background-color: #000000;
+    border: 2px solid black;
+    outline: none;
+    transform: translateY(-2px);
+}
+
+.footer{
+
+    background-color: #000000 !important;
+}
+
+.footer{
+
+    min-height: 10vh;
+}
+
+@media (max-width: 576px) {
+   
+    .Home .container .row .side-container .home-image{
+
+        transform: translate(50%, 0%);
+        
+    }
+
+  }
